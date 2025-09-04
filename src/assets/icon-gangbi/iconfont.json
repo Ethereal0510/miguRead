@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11195044",
+      "name": "钢笔",
+      "font_class": "gangbi",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    }
+  ]
+}

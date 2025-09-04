@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17425908",
+      "name": "左右按钮",
+      "font_class": "zuoyouanniu",
+      "unicode": "ea2c",
+      "unicode_decimal": 59948
+    }
+  ]
+}
