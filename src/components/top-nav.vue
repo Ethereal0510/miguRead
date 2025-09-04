@@ -48,13 +48,17 @@
     background-color: white;
     height: 64px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    white-space: nowrap;
+    /* 不允许换行 */
+    min-width: 1200px;
+    /* 小于1200px 出滚动条 */
   }
 
   .app-head {
@@ -62,6 +66,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* min-width: 1200px; */
+    /* 小于1200px 出滚动条 */
   }
 
   .title {
@@ -140,14 +146,15 @@
 
   #Post:hover {
     filter: brightness(1.08) saturate(1.2);
-    transition: filter .2s;   /* 顺带加个过渡更柔和（可选） */
+    transition: filter .2s;
+    /* 顺带加个过渡更柔和（可选） */
   }
 
-  .icon-gangbi{
+  .icon-gangbi {
     font-size: 14px;
   }
 
-  .main-content{
+  .main-content {
     height: 1000px;
   }
 </style>

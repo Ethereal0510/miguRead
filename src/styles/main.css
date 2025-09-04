@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;  /* 开启横向滚动 */
+}
+
+#app {
+  min-width: 1200px;   /* 页面最小宽度 */
+  max-width: 100vw;   /* 大于 1200px 时固定宽度 */
+  margin: 0 auto;      /* 大于 1200px 时居中 */
+}

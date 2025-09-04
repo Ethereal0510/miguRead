@@ -131,5 +131,6 @@
     top: 60%;
     transform: translateY(-50%);
     right: 105px;
+    z-index: 100;
   }
 </style>
